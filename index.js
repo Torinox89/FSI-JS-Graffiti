@@ -9,9 +9,10 @@ for(let i = 0; i < dogImages.length; i++){
 
 }
 
-let dog-name = document.querySelectorAll('.dog-name')
+let dogNames = document.querySelectorAll('.dog-name')
 for(let i = 0; i < dogImages.length; i++){
-    dog-name[i].text-align: center
-    
+    dogNames[i].style.textAlign = "left"
+       
 }
+
 
